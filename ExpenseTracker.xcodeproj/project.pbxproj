@@ -14,6 +14,7 @@
 		93FBC0652C4F0E2200474F1F /* ExpenseTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FBC0642C4F0E2200474F1F /* ExpenseTrackerTests.swift */; };
 		93FBC06F2C4F0E2200474F1F /* ExpenseTrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FBC06E2C4F0E2200474F1F /* ExpenseTrackerUITests.swift */; };
 		93FBC0712C4F0E2200474F1F /* ExpenseTrackerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FBC0702C4F0E2200474F1F /* ExpenseTrackerUITestsLaunchTests.swift */; };
+		93FBC07E2C4F103500474F1F /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93FBC07D2C4F103500474F1F /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		93FBC06A2C4F0E2200474F1F /* ExpenseTrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpenseTrackerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93FBC06E2C4F0E2200474F1F /* ExpenseTrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITests.swift; sourceTree = "<group>"; };
 		93FBC0702C4F0E2200474F1F /* ExpenseTrackerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseTrackerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		93FBC07D2C4F103500474F1F /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				93FBC0532C4F0E1F00474F1F /* ExpenseTrackerApp.swift */,
 				93FBC0552C4F0E1F00474F1F /* ContentView.swift */,
+				93FBC07D2C4F103500474F1F /* Extensions.swift */,
 				93FBC0572C4F0E2100474F1F /* Assets.xcassets */,
 				93FBC0592C4F0E2100474F1F /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				93FBC0562C4F0E1F00474F1F /* ContentView.swift in Sources */,
+				93FBC07E2C4F103500474F1F /* Extensions.swift in Sources */,
 				93FBC0542C4F0E1F00474F1F /* ExpenseTrackerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
